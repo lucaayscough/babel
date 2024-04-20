@@ -22,7 +22,7 @@ typedef struct {
 } Lexer;
 
 void print_tokens(Lexer* l) {
-  for (int i = 0; i < l->content_len; ++i) {
+  for (size_t i = 0; i < l->content_len; ++i) {
     if (isalpha(l->content[i])) {
       printf("%c\n", l->content[i]);
     }
