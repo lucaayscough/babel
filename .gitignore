@@ -1,2 +1,3 @@
 src/out
 src/out.dSYM
+*.DS_Store
